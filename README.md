@@ -10,20 +10,20 @@ Installation
 ** UNDER CONSTRUCTION **
 
 File Structure
-api directory contains Flask web applications for a RESTful API
-models directory contains all classes used for this project:
-tests directory contains all unit test cases for this project.
-web_dynamic directory contains all files necessary to start a dynamic Flask web application.
-web_flask directory contains all files necessary to start a Flask web application.
-web_static directory contains all html, css and images used for the static website.
-0-setup_web_static.sh - bash script that sets up web servers for the deployment of web_static
-1-pack_web_static.py - Fabric script that generates a .tgz archive from the contents of web_static, using the function do_pack
-2-do_deploy_web_static.py - Fabric script (based on 1-pack_web_static.py) that distributes an archive to web servers, using the function do_deploy
-3-deploy_web_static.py - Fabric script (based on 2-do_deploy_web_static.py) that creates and distributes an archive to web servers, using the function deploy
-AUTHORS - list of Authors who have worked on this project.
-console.py - the console is a command line used to interact with the storage engines.
-setup_mysql_dev.sql - MySQL script to set-up the hbnb_dev_db database.
-setup_mysql_test.sql - MySQL script to set-up the hbnb_test_db database.
+. api directory contains Flask web applications for a RESTful API
+. models directory contains all classes used for this project:
+. tests directory contains all unit test cases for this project.
+. web_dynamic directory contains all files necessary to start a dynamic Flask web application.
+. web_flask directory contains all files necessary to start a Flask web application.
+. web_static directory contains all html, css and images used for the static website.
+. 0-setup_web_static.sh - bash script that sets up web servers for the deployment of web_static
+. 1-pack_web_static.py - Fabric script that generates a .tgz archive from the contents of web_static, using the function do_pack
+. 2-do_deploy_web_static.py - Fabric script (based on 1-pack_web_static.py) that distributes an archive to web servers, using the function do_deploy
+. 3-deploy_web_static.py - Fabric script (based on 2-do_deploy_web_static.py) that creates and distributes an archive to web servers, using the function deploy
+. AUTHORS - list of Authors who have worked on this project.
+. console.py - the console is a command line used to interact with the storage engines.
+. setup_mysql_dev.sql - MySQL script to set-up the hbnb_dev_db database.
+\. setup_mysql_test.sql - MySQL script to set-up the hbnb_test_db database.
 Examples of Use
 ** UNDER CONSTRUCTION **
 
@@ -49,4 +49,5 @@ EOF  all  create  destroy  help  quit  show  update
 (hbnb) quit
 
 Authors
-Amina Kaddal (https://github.com/amykad)
+
+. Amina Kaddal (https://github.com/amykad)
